@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/footer">
+
+
+    <LinearLayout
+        android:layout_width="384dp"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:background="#E86B0C19"
+        android:weightSum="1"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/userProfilePage"
+            android:src="@drawable/ic_profile"
+            android:layout_weight="0.18"
+            android:layout_width="50dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:id="@+id/userCoupons"
+            android:src="@drawable/ic_store_coupons"
+            android:paddingTop="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.35"
+            android:paddingBottom="0dp"
+            android:layout_width="60dp"
+            android:paddingRight="10dp" />
+
+        <ImageView
+            android:layout_height="20dp"
+            android:id="@+id/couponTimeline"
+            android:src="@drawable/ic_coupons"
+            android:layout_weight="0.19"
+            android:layout_width="50dp"
+            android:layout_marginTop="10dp"/>
+
+        <ImageView
+            android:id="@+id/userFindButton"
+            android:src="@drawable/ic_store_find"
+            android:layout_width="65dp"
+            android:layout_weight="0.17"
+            android:paddingBottom="0dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="0dp"
+            android:layout_height="35dp"
+            android:paddingTop="8dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
